@@ -1,0 +1,66 @@
+/* Body styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  /* Main section styles */
+  .main {
+    max-width: 960px;
+    margin: 10px auto 0;
+    padding: 0 30px;
+  }
+  
+  /* Contact form styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    border: #fff;
+    border-radius: 1px;
+    padding: 10px;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 1px;
+    border: none;
+  }
+  
+  button[type="submit"] {
+    background-color: #414244;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #414244;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  

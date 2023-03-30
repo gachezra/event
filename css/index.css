@@ -1,0 +1,147 @@
+/* Body styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #222;
+  color: #fff;
+}
+
+/* Main section styles */
+.main {
+  max-width: 960px;
+  margin: 10px auto 0;
+  padding: 0 30px;
+}
+
+/* Featured events section styles */
+#featured-events-section {
+  margin-top: 1px;
+}
+
+#featured-events-section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  border-left: 1px solid #fff;
+  padding-left: 10px;
+}
+
+#featured-events-section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#featured-events-section li {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  flex: 1 1 300px;
+}
+
+#featured-events-section li:last-child {
+  margin-right: 0;
+}
+
+#featured-events-section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#featured-events-section a:hover {
+  color: lightblue;
+}
+
+#featured-events-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#featured-events-section h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#featured-events-section p {
+  font-size: 16px;
+  margin: 0;
+}
+
+/* Upcoming events section styles */
+#upcoming-events-section {
+  margin-top: 30px;
+}
+
+#upcoming-events-section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  border-left: 5px solid #fff;
+  padding-left: 10px;
+}
+
+#upcoming-events-section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#upcoming-events-section li {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  flex: 1 1 300px;
+}
+
+#upcoming-events-section li:last-child {
+  margin-right: 0;
+}
+
+#upcoming-events-section a.button {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+#upcoming-events-section a.button:hover {
+  background-color: transparent;
+}
+
+#upcoming-events-section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#upcoming-events-section a:hover {
+  color: lightblue;
+}
+
+#upcoming-events-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#upcoming-events-section h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#upcoming-events-section p {
+  font-size: 16px;
+  margin: 0;
+}
