@@ -135,38 +135,18 @@ a:hover {
 
 /* Lower Footer */
 .lower-footer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  font-size: 14px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  justify-items: center;
+  padding-top: 10px;
+  border-top: 1px solid #666;
 }
 
-.socials, .more, .cont {
-  list-style: none;
-  margin: 0 ;
-  text-align: center;
+.lower-footer li {
+  text-align: left;
 }
 
-.socials li, .more li, .cont li {
-  margin:  0;
-}
-
-.socials a, .more a, .cont a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.socials i, .more i, .cont i {
-  margin-right: 5px;
-}
-
-.more, .cont {
-  margin-top: 0px;
-}
 }
 
 /*contact-info*/
@@ -263,5 +243,3 @@ footer {
 .lower-footer li {
   text-align: left;
 }
-
-  
