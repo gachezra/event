@@ -73,13 +73,17 @@ body {
 /* Responsive styles */
 @media only screen and (max-width: 768px) {
   .event-details {
-    flex-direction: column;
-    align-items: center;
+    display: block;
+    align-items: left;
   }
 
   .event-details img {
     width: 100%;
     margin-bottom: 20px;
+  }
+
+  .event-description{
+    display: block;
   }
 
   .list-event {
