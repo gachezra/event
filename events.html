@@ -4,6 +4,7 @@
     <title>Events</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-Z+1c3u3OoWXhajGJrqfL5A5Y5PDRryZTvzJG1nxBfDeJmAbp8yWmGjv1Q+iqB3q3J8PxKeLX9vamrFJrNlGh8Q==" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="css/events.css">
     <link rel="stylesheet" type="text/css" href="css/nav.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -14,7 +15,7 @@
   <body>
   <header>
   <div id="contact-info">
-		Call us: +254 727 684 72
+		Call us: +254 727 684 727
 		Email us: <a href="mailto:info@eventkick.com">info@eventkick.com</a>
 	</div>
   <div class="nav-wrapper">
@@ -32,46 +33,62 @@
       </nav>
     </div>
 </header>
+<form class="btn-form" action="#" method="get">
+  <input type="text" name="search" placeholder="Enter keyword or City..">
+  <button class="search-icon" type="submit"><i class="fas fa-search"></i></button>
+</form>
     <div class="main">
       <h2>Upcoming Events</h2>
-      <form class="btn-form" action="#" method="get">
-        <input type="text" name="search" placeholder="Search events...">
-        <button class="button" type="submit">Search</button>
-      </form>
-      <ul class="event-list">
-        <li>
+      <div class="event-container">
+        <div class="event">
           <h3>Concert at Serena Hotel</h3>
           <img src="img/event1.webp" alt="Concert at Serena Hotel">
           <p>Date: January 20, 2024</p>
           <p>Time: 7:00 PM - 10:00 PM</p>
           <p>Category: Music</p>
           <a href="events/1.html">Learn More</a>
-        </li>
-        <li>
+        </div>
+        <div class="event">
           <h3>Kenya Open Golf Tournament</h3>
           <img src="img/event2.webp" alt="Kenya Open Golf Tournament">
           <p>Date: March 1, 2024 - March 7, 2024</p>
           <p>Time: 8:00 AM - 6:00 PM</p>
           <p>Category: Sports</p>
           <a href="#">Learn More</a>
-        </li>
-        <li>
+        </div>
+        <div class="event">
           <h3>Maasai Mara Cultural Festival</h3>
-          <img src="img/event3.jpg" alt="Maasai Mara Cultural Festival">
+          <img src="img/event3.webp" alt="Maasai Mara Cultural Festival">
           <p>Date: July 1, 2024 - July 3, 2024</p>
           <p>Time: 9:00 AM - 10:00 PM</p>
           <p>Category: Culture</p>
           <a href="#">Learn More</a>
-        </li>
-        <li>
+        </div>
+        <div class="event">
           <h3>Nairobi Food Festival</h3>
           <img src="img/event4.jpg" alt="Nairobi Food Festival">
           <p>Date: November 15, 2024 - November 17, 2024</p>
           <p>Time: 11:00 AM - 9:00 PM</p>
           <p>Category: Food</p>
           <a href="#">Learn More</a>
-        </li>
-      </ul>
+        </div>
+        <div class="event">
+          <h3>Nairobi Food Festival</h3>
+          <img src="img/event4.jpg" alt="Nairobi Food Festival">
+          <p>Date: November 15, 2024 - November 17, 2024</p>
+          <p>Time: 11:00 AM - 9:00 PM</p>
+          <p>Category: Food</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="event">
+          <h3>Nairobi Food Festival</h3>
+          <img src="img/event4.jpg" alt="Nairobi Food Festival">
+          <p>Date: November 15, 2024 - November 17, 2024</p>
+          <p>Time: 11:00 AM - 9:00 PM</p>
+          <p>Category: Food</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
     </div>
   </body>
   <footer>
