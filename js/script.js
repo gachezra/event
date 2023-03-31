@@ -1,9 +1,14 @@
-// get the hamburger icon and navigation links
 const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
+const links = document.querySelectorAll('.nav-links li');
 
-// add an event listener to the hamburger icon
 hamburger.addEventListener('click', () => {
-  // toggle the 'show' class on the navigation links
-  navLinks.classList.toggle('show');
+  //Toggle Nav
+  navLinks.classList.toggle('open');
+  //Animate Links
+  links.forEach(link => {
+    link.classList.toggle('fade');
+  });
+  //Hamburger Animation
+  hamburger.classList.toggle('toggle');
 });
