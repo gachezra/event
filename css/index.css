@@ -110,7 +110,7 @@ body {
   background-color: #333;
   color: #fff;
   padding: 10px 20px;
-  border-radius: 10px;
+  border-radius: 5px;
   text-decoration: none;
   margin-bottom: 20px;
 }
@@ -145,3 +145,75 @@ body {
   font-size: 16px;
   margin: 0;
 }
+
+@media (max-width: 764px) {
+  /* Main section styles */
+  .main {
+  max-width: 100%;
+  margin: 10px 0;
+  padding: 0 10px;
+  }
+  
+  /* Featured events section styles */
+  #featured-events-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  }
+  
+  #featured-events-section li {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  flex: 1 1 100%;
+  }
+  
+  #featured-events-section li:last-child {
+  margin-right: 0;
+  }
+  
+  #featured-events-section img {
+  margin-bottom: 15px;
+  }
+  
+  #featured-events-section h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  }
+  
+  #featured-events-section p {
+  font-size: 14px;
+  }
+  
+  /* Upcoming events section styles */
+  #upcoming-events-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  }
+  
+  #upcoming-events-section li {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  flex: 1 1 100%;
+  }
+  
+  #upcoming-events-section li:last-child {
+  margin-right: 0;
+  }
+  
+  #upcoming-events-section a.button {
+  display: block;
+  margin-bottom: 10px;
+  }
+  
+  #upcoming-events-section img {
+  margin-bottom: 15px;
+  }
+  
+  #upcoming-events-section h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  }
+  
+  #upcoming-events-section p {
+  font-size: 14px;
+  }
+  }
