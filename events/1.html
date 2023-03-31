@@ -16,7 +16,7 @@
       </div>
       <div class="nav-wrapper">
         <a href="../index.html" class="nav-logo">
-          <img class="logo" src="../img/logo.png" alt="EventKick Logo">
+          <img src="../img/logo.png" alt="EventKick Logo">
         </a>
         <nav>
           <ul class="nav-links">
@@ -44,11 +44,39 @@
           </div>
         </div>
       </div>
+    
+      <div class="location-section">
+        <h1>Location</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d45127.42198214754!2d36.729054040498056!3d-1.3333496266642226!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1b40e8700ce9%3A0xf4eb6d3689e5364b!2sThe%20Waterfront%20Karen!5e0!3m2!1sen!2sin!4v1680274588177!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="comments-section">
+        <h2>Comments</h2>
+        <div class="comments-list">
+          <div class="comment">
+            <p><strong>John Doe:</strong> This event was amazing!</p>
+          </div>
+          <div class="comment">
+            <p><strong>Jane Smith:</strong> I wish I could have been there!</p>
+          </div>
+        </div>    
+        <!-- Only show the comment form to logged-in users -->
+        {% if user.is_authenticated %}
+        <form action="#" method="post">
+          {% csrf_token %}
+          <label for="comment">Leave a comment:</label>
+          <textarea name="comment" id="comment" rows="3"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+        {% else %}
+        <p>Please <a href="login.html">log in</a> or <a href="signup.html">sign up</a> leave a comment.</p>
+        {% endif %}
+      </div>
     </main>
+    
   <footer>
     <div class="top-footer">
       <a href="../index.html" class="nav-logo">
-        <img class="logo" src="../img/logo.png" alt="EventKick Logo">
+        <img src="../img/logo.png" alt="EventKick Logo">
       </a>
       <p>&copy; 2023 EventKick Kenya. ALL RIGHTS RESERVED</p>
     </div>
@@ -56,14 +84,14 @@
       <ul class="socials">
         STAY CONNECTED
         <li><a href="https://www.facebook.com/people/EventKick-Kenya/100089531837941/" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i>Facebook</a></li>
-        <li></li><a href="https://www.instagram.com/eventkick/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i> Instagram</a></li>
-        <li></li><a href="https://twitter.com/EventKick_Ke" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i> Twitter</a></li>
+        <li><a href="https://www.instagram.com/eventkick/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i> Instagram</a></li>
+        <li><a href="https://twitter.com/EventKick_Ke" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i> Twitter</a></li>
       </ul>
       <div class="more">
         MORE
-        <li></li><a href="../about.html">About Us</a></li>
-        <li></li><a href="../faq.html">FAQs</a></li>
-        <li></li><a href="../privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="../about.html">About Us</a></li>
+        <li><a href="../faq.html">FAQs</a></li>
+        <li><a href="../privacy-policy.html">Privacy Policy</a></li>
       </div>
       <div class="cont">
         CONTACT US
