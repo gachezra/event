@@ -12,7 +12,7 @@ body {
   /* Main section styles */
   .main {
     max-width: 960px;
-    margin: 70px auto 0;
+    margin: 20px auto 0;
     padding: 0 30px;
   }
   
@@ -25,7 +25,7 @@ body {
   
   .main p {
     margin: 0;
-    line-height: 1.5;
+    line-height: 2;
   }
   
   .main h3 {

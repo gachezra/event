@@ -33,31 +33,6 @@ body {
     text-align: center;
 }
 
-@media only screen and (max-width: 767px) {
-    #container-register {
-      width: 100%;
-      height: 100%;
-      margin: 0;
-      top: 0;
-      border-radius: 0;
-    }
-
-    #container-login {
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        top: 0;
-        border-radius: 0;
-      }
-
-    #container-reset {
-        width: 100%;
-        margin: 0;
-        top: 0;
-        border-radius: 0;
-      }
-  }
-
 #container-reset {
     background-color: #1D1F20;
     position: relative;
@@ -245,3 +220,34 @@ input[type=submit] {
     cursor: pointer;
     border-radius: 3px;
 }
+
+@media only screen and (max-width: 767px) {
+    #container-register {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      top: 0;
+      border-radius: 0;
+    }
+
+    #container-login {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+    }
+
+    #container-reset {
+        width: 100%;
+        margin: 0;
+        top: 0;
+        border-radius: 0;
+    }
+
+    .privacy {
+        margin-top: 30px;
+        position: relative;
+        font-size: 12px;
+        bottom: 0%;
+    }
+  }

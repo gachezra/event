@@ -69,7 +69,7 @@ body {
   }
 
   .contact-details {
-    display: block;
+    display: inline-block;
     align-items: left;
     padding: 20px;
     margin-top: 0;
@@ -80,7 +80,7 @@ body {
   }
 
   .contact-details li{
-    display: block;
+    display: flex;
   }
 
   .contact-details h1{
@@ -92,38 +92,29 @@ body {
   .contact-details i {
     margin-right: 5px;
   }
-
-  .contact-details ul li {
-    display: inline-block;
-    margin-right: 10px;
-  }
   
   .contact-details ul li a {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
+    display: flex;
+    width: 25px;
+    height: 25px;
     background-color: #000;
     border-radius: 50%;
-    text-align: center;
-    line-height: 30px;
     color: #fff;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex; /* Use flexbox to arrange the icons horizontally */
-    justify-content: center; /* Center the icons horizontally */
-
+    justify-content: center;
   }
+
+  .material{
+    display: block;
+    flex-direction: column;
+  }
+
   .material-icons {
-    font-size: 24px;
-    color: #555; /* Set the color of the icons */
-    cursor: pointer; /* Add a cursor pointer to indicate the icons are clickable */
+    display: block;
+    font-size: 15px;
+    color: #fff;
   }
   
   /* Set the style for the icon on hover */
-  .material-icons:hover {
-    color: #000; /* Change the color of the icon on hover */
-  }
   .contact-details ul li a:hover {
     background-color: #fff;
     color: #000;

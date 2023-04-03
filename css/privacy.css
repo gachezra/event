@@ -11,27 +11,29 @@ body {
   
   /* Main section styles */
   .main {
-    max-width: 960px;
-    margin: 10px auto 0;
-    padding: 0 30px;
+    max-width: 100%;
+    padding: 30px;
+  }
+
+  .main h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    border-left: 1px solid #fff;
+    padding-left: 5px;
   }
   
   .main h2 {
-    font-size: 36px;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 30px;
+    border-left: 1px solid #fff;
+    padding-left: 5px;
   }
   
   .main p {
-    font-size: 16px;
     margin: 0;
     line-height: 1.5;
-  }
-  
-  .main h3 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 5px;
   }
   
   .main ul {
@@ -42,12 +44,6 @@ body {
   
   .main li {
     margin-bottom: 20px;
-  }
-  
-  .main h4 {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 5px;
   }
   
   /* Footer styles */
