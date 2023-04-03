@@ -11,11 +11,13 @@ body {
     position: relative;
     top: 20%;
     margin: auto;
+    margin-top: 30px;
     width: 340px;
     height: auto;
     border-radius: 0.35em;
     box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
     text-align: center;
+    padding: 30px;
 }
 
 #container-register {
@@ -23,6 +25,7 @@ body {
     position: relative;
     top: 20%;
     margin: auto;
+    margin-top: 30px;
     width: 340px;
     height: auto;
     border-radius: 0.35em;
@@ -30,11 +33,37 @@ body {
     text-align: center;
 }
 
+@media only screen and (max-width: 767px) {
+    #container-register {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      top: 0;
+      border-radius: 0;
+    }
+
+    #container-login {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+        border-radius: 0;
+      }
+
+    #container-reset {
+        width: 100%;
+        margin: 0;
+        top: 0;
+        border-radius: 0;
+      }
+  }
+
 #container-reset {
     background-color: #1D1F20;
     position: relative;
     top: 20%;
     margin: auto;
+    margin-top: 150px;
     width: 340px;
     height: auto;
     border-radius: 0.35em;
@@ -182,7 +211,7 @@ input[type=submit] {
 
 #container-reset input[type=submit] {
     padding: 6px 25px;
-    background: #666;
+    background: #373E4A;
     color: #C1C3C6;
     font-weight: bold;
     margin-top: 20px;

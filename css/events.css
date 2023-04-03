@@ -61,29 +61,45 @@ body {
 }
 
 .event a:hover {
-  background-color: transparent;}
+  background-color: transparent;
+}
 
 /*search button*/
-.btn-form {
-  display: flex;
-  justify-content: flex-end;
-  margin: 20px;
-}
-
-.btn-form input[type="text"] {
-  padding: 10px;
-  border: none;
-  width: 70%;
-}
-
-.btn-form button {
-  padding: 10px 15px;
-  background-color: #555;
-  color: #fff;
+.search-icon {
+  background-color: transparent;
   border: none;
   cursor: pointer;
+  font-size: 20px;
+  color: #000;
+  margin-right: 10px;
 }
 
-.btn-form button:hover {
-  background-color: #666;
+header{
+  background-color: #333;
+}
+
+.btn-form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.btn-form input[type="search"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 300px;
+  max-width: 100%;
+}
+
+.btn-form .search-icon {
+  margin-left: 10px;
+  padding: 5px;
+  background-color: #ccc;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
 }

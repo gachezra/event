@@ -2,6 +2,7 @@
 body{
   font-size: small;
 }
+
 /* Navigation bar styles */
 .nav-wrapper {
   background-color: #333;
@@ -13,7 +14,7 @@ body{
   z-index: 1000;
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Updated */
+  justify-content: space-between;
   text-align: center;
   font-size: small;
 }
@@ -53,28 +54,20 @@ a:hover {
   text-decoration: none;
 }
 
-.signing a.up{
-  background-color: #373E4A;
+.nav-sign{
+  font-weight: bold;
+  margin-left: 0;
+  display: flex;
 }
 
-.signing a:hover{
-  background-color: transparent;
-  color: lightblue;
-  border: transparent;
-}
-
-.signing a{
-  border: 1px solid #fff;
-  padding: 10px;
-  border-radius: 10px;
-}
-
-.signing{
-  margin-top: 15px;
+.up{
+  border-bottom: 1px solid rgb(255, 255, 255);
+  box-sizing: border-box;
 }
 
 .nav-links a:hover {
   color: lightblue;
+  border-bottom: 1px solid transparent;
 }
 
 .hamburger {
@@ -233,10 +226,6 @@ footer a {
   
 .socials a:hover, .more a:hover, .cont a:hover {
   color: lightblue;
-}
-  
-.socials a i {
-  margin-right: 5px;
 }
   
 /* Top footer styles */
