@@ -9,7 +9,8 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/script.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="img/party.png">
-    <link rel="shortcut icon" type="image/x-icon" href="img/party.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
   </head>
   <body>
     <header>
@@ -17,15 +18,15 @@
         <a href="index.html" class="nav-logo">
           <img class="logo" src="img/logo.png" alt="EventKick Logo">
         </a>
-        <nav class="nav-sign">
-          <nav class="signing">
-            <a href="login.html">Log In</a>
-            <a class="up" href="signup.html">Sign Up</a>
-          </nav>
+        <nav>
           <ul class="nav-links">
             <li><a href="events.html">Events</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact Us</a></li>
+            <div class="nav-sign">
+              <li><a href="login.html">Log In</a></li>
+              <li><a class="up" href="signup.html">Sign Up</a></li>
+            </div>
           </ul>
         </nav>
         <div class="hamburger">
@@ -36,19 +37,29 @@
       </div>
     </header> 
     <div class="main">
-      <h2>Contact Us</h2>
-      Any questions or inqury?
-      <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
-        <label for="subject">Subject:</label>
-        <input type="text" id="subject" name="subject" required><br><br>
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea><br><br>
-        <button type="submit">Send Message</button>
-      </form>
+      <h2>Get In Touch</h2>
+      <div class="contact-page">
+        <div class="contact-details">
+          <h1>Contact Details</h1>
+          <p>Get in touch in case of an inquiry or complaint.</p>
+          <i class="material-icons">phone</i>
+          <span>Phone: +254 727 684727</span>
+          <i class="material-icons">email</i>
+          <span>Email: info@eventkick.com</span>
+          <ul>
+              <li><a href="https://www.facebook.com/people/EventKick-Kenya/100089531837941/"><i class="material-icons">facebook</i></a></li>
+              <li><a href="https://twitter.com/EventKick_Ke"><i class="material-icons">twitter</i></a></li>
+              <li><a href="https://www.instagram.com/eventkick/"><i class="material-icons">instagram</i></a></li>
+          </ul>
+      </div>             
+        <form class="contact-form">
+          <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+          <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+          <input type="text" id="subject" name="subject" placeholder="Subject" required><br><br>
+          <textarea id="message" name="message" placeholder="Message" required></textarea><br><br>
+          <button type="submit">Send Message</button>
+        </form>        
+      </div>
     </div>
   </body>
   <footer>

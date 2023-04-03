@@ -59,17 +59,19 @@
             <p><strong>Jane Smith:</strong> I wish I could have been there!</p>
           </div>
         </div>    
-        <!-- Only show the comment form to logged-in users -->
-        {% if user.is_authenticated %}
-        <form action="#" method="post">
-          {% csrf_token %}
-          <label for="comment">Leave a comment:</label>
-          <textarea name="comment" id="comment" rows="3"></textarea>
-          <button type="submit">Submit</button>
-        </form>
-        {% else %}
-        <p>Please <a href="login.html">log in</a> or <a href="signup.html">sign up</a> leave a comment.</p>
-        {% endif %}
+        <div class="comment-form-wrapper">
+          {% if user.is_authenticated %}
+          <form action="#" method="post">
+            {% csrf_token %}
+            <label for="comment">Leave a comment:</label>
+            <textarea name="comment" id="comment" rows="3"></textarea>
+            <button type="submit">Submit</button>
+          </form>
+          {% else %}
+          <p>Please <a href="#">log in</a> to leave a comment.</p>
+          {% endif %}
+        </div>
+        
       </div>
     </main>
     
@@ -99,5 +101,6 @@
         <li></li><a href="mailto:info@eventkick.com">info@eventkick.com</a></li>
       </div>
     </div>
+    <script href="js/session.js"></script>
   </footer>
 </html>
