@@ -20,7 +20,7 @@ body {
 }
 
 .event-container{
-  padding:auto;
+  justify-content:center;
 }
 
 /* set border for event container */
