@@ -3,7 +3,9 @@
   <head>
     <title>Contact Us</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/contact.css">
     <link rel="stylesheet" type="text/css" href="css/nav.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -42,16 +44,23 @@
           <h1>Contact Details</h1>
           <p>Get in touch in case of an inquiry or complaint.</p>
           <div class="material">
-            <i class="material-icons">phone</i>
-            <span>Phone: +254 727 684727</span>
-            <i class="material-icons">email</i>
-            <span>Email: <a href="mailto:info@eventkick.com">info@eventkick.com</a></span>
+            <li>Phone: +254 727 684727</li>
+            <li>Email: <a href="mailto:info@eventkick.com">info@eventkick.com</a></li>
           </div>
-          <ul>
-              <li><a href="https://www.facebook.com/people/EventKick-Kenya/100089531837941/"><i class="material-icons">facebook</i></a></li>
-              <li><a href="https://twitter.com/EventKick_Ke"><i class="material-icons">twitter</i></a></li>
-              <li><a href="https://www.instagram.com/eventkick/"><i class="material-icons">instagram</i></a></li>
-          </ul>
+          <div class="py-4">
+            <a target="_blank" class="pr-4 hover:text-white" href="mailto:info@eventkick.com">
+              <i class="fas fa-envelope fa-lg"></i>
+            </a>
+            <a target="_blank" class="pr-4 hover:text-white" href="https://www.facebook.com/people/EventKick-Kenya/100089531837941//">
+              <i class="fab fa-facebook fa-lg"></i>
+            </a>
+            <a target="_blank" class="pr-4 hover:text-white" href="https://instagram.com/eventkick">
+              <i class="fab fa-instagram fa-lg"></i>
+            </a>
+            <a target="_blank" class="pr-4 hover:text-white" href="https://twitter.com/EventKick_Ke">
+              <i class="fab fa-twitter fa-lg"></i>
+            </a>
+          </div>
       </div>             
         <form class="contact-form">
           <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
@@ -73,15 +82,15 @@
     <div class="lower-footer">
       <ul class="socials">
         STAY CONNECTED
-        <li><a href="https://www.facebook.com/people/EventKick-Kenya/100089531837941/" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i>Facebook</a></li>
-        <li></li><a href="https://www.instagram.com/eventkick/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i> Instagram</a></li>
-        <li></li><a href="https://twitter.com/EventKick_Ke" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i> Twitter</a></li>
+        <li><a href="https://www.facebook.com/people/EventKick-Kenya/100089531837941/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+        <li><a href="https://www.instagram.com/eventkick/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+        <li><a href="https://twitter.com/EventKick_Ke" target="_blank" rel="noopener noreferrer">Twitter</a></li>
       </ul>
       <div class="more">
         MORE
-        <li></li><a href="about.html">About Us</a></li>
-        <li></li><a href="faq.html">FAQs</a></li>
-        <li></li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="faq.html">FAQs</a></li>
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
       </div>
       <div class="cont">
         CONTACT US

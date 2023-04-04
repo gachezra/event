@@ -19,10 +19,6 @@ body {
   padding-left: 10px;
 }
 
-.event-container{
-  justify-content:center;
-}
-
 /* set border for event container */
 .event{
   border: 1px solid black;

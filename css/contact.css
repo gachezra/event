@@ -69,7 +69,7 @@ body {
   }
 
   .contact-details {
-    display: inline-block;
+    display: block;
     align-items: left;
     padding: 20px;
     margin-top: 0;
@@ -101,6 +101,10 @@ body {
     border-radius: 50%;
     color: #fff;
     justify-content: center;
+  }
+
+  .py-4{
+    display: flex;
   }
 
   .material{
