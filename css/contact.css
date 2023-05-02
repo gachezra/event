@@ -122,6 +122,7 @@ body {
   .contact-details ul li a:hover {
     background-color: #fff;
     color: #000;
+    padding: 10px;
   }
     
   .contact-details span {
