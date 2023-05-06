@@ -13,4 +13,4 @@ Any help with the project will be highly appreciated.
 
 <h1>Hosting</h1>
 
-I'll be self hosting it myself, hopefully soon.
+I'll be self hosting it myself, hopefully soon. Just need to learn about Security.
